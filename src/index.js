@@ -113,7 +113,7 @@
 // console.log(arr8)
 
 //mapやfiltterを使った配列の処理
-const nameArr = ["田中", "山田", "shohi"];
+// const nameArr = ["田中", "山田", "shohi"];
 // for (let index = 0; index< nameArr.length; index++ ) {
 //   console.log(`${index+1}番は${nameArr[index]}`)
 // };
@@ -157,3 +157,23 @@ const nameArr = ["田中", "山田", "shohi"];
 //   return num1 + num2 > 100 ? "100を超えています" : "許与範囲です。";
 // };
 // console.log(chackSum(50, 100));
+
+//論理演算子の本当の意味を知ろう
+// const flag1 = true
+// const flag2 = false
+// if (flag1||flag2) {
+//   console.log('1も2もtrueになります。')
+// }
+// if (flag1 && flag2) {
+//   console.log('1も2もtrueになります。')
+// }
+
+// ||は左がわがfalseなら右側を返す
+// const num = null;
+// const fee = num || "金額未設定";
+// console.log(fee)
+
+//&& は左側がtrueなら右側を返す
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2)
